@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 55px;
+    font-family: Alata;
+    
+}
+
+.div-main {
+    display: grid;
+    
+}
+
+.welcome-page {
+    
+    height: 95vh;
+    scroll-margin-top: 2.5em;
+    background-image: url(earth2.jpeg) ;
+    background-size: cover;
+    
+    
+}
+
+.welcome-page-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+   
+}
+
+
+.me-page {
+    background-color: aqua;
+    height: 95vh;
+    scroll-margin-top: 2.5em;
+    
+}
+
+.projects-page {
+    background-color: rgb(37, 138, 62);
+    height: 95vh;
+    scroll-margin-top: 2.5em;
+}
+
+.hello-world {
+    color: white;
+    font-size: 15vh;
+    margin-bottom: 0;
+    
+}
+
+.p-name {
+    color: white;
+    font-size: 5vh;
+    margin-top: 5px; 
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    border-style: solid;
+    border-color: rgb(0, 102, 255);
+
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.img-linkedin {
+   max-width: 100%;
+   object-fit:contain;
+}
+
+.socials a {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 30px;
+    
+}
+
+
+
+.d  {
+    fill: white;
+}
+
